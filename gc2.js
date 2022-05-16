@@ -13,7 +13,7 @@
     play_time: 0,
     total_play_time: 0,
     last_save_time: new Date(),
-    gps: 0,
+    gps: 100000000000000000,
     expps: 0,
     gpc: 1,
     sliggoo_gpsmult: 1.0,
