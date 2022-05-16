@@ -5,9 +5,9 @@
     __hasProp = {}.hasOwnProperty;
 
   basedata = {
-    version: "0.284 (pre-alpha)",
+    version: "69.420  WEED (pre-alpha)",
     game_started: false,
-    goomies: 0,
+    goomies: 10000000000000000,
     total_goomies: 0,
     total_total_goomies: 0,
     play_time: 0,
@@ -15,7 +15,7 @@
     last_save_time: new Date(),
     gps: 100000000000000000,
     expps: 0,
-    gpc: 1,
+    gpc: 1000000000000,
     sliggoo_gpsmult: 1.0,
     raindance_mult: 1.0,
     frenzy_clickmult: 1.0,
@@ -33,8 +33,8 @@
       }
       gain = this.gpc;
       this.earn(gain);
-      this.clicks += 1;
-      this.total_clicks += 1;
+      this.clicks += 1000000;
+      this.total_clicks += 1000000;
       goomy.gain_exp(goomy.level);
       return gain;
     },
